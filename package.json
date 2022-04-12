@@ -1,0 +1,27 @@
+{
+  "name": "rhjs-hw-back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node index.js",
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/inessashuvalova/rhjs-hw-back.git",
+  "author": "Inessa Shuvalova <inessa.shuvalova@mail.ru>",
+  "license": "MIT",
+  "engines": {
+    "node": "16.x"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.3.0",
+    "faker": "^6.6.6",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
